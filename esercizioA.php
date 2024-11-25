@@ -4,14 +4,7 @@
 </head>
 <body>
     <h1>Tabella Pitagorica</h1>
-
-    <footer>
-        <p><strong>Studente:</strong> Wei Steve Wang</p>
-        <p><strong>Classe:</strong> 5IA Informatica</p>
-        <p><strong>Anno Scolastico:</strong> 2024/2025</p> 
-    </footer>
-    
-    
+     
     <?php
     // Descrizione del funzionamento del codice 
     echo "<p><strong>Funzionamento del codice:</strong></p>";
@@ -44,5 +37,6 @@
     </table>
     
     <p><button onclick="window.location.href='index.html';">Torna all'indice</button></p>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
