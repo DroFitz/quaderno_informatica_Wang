@@ -8,19 +8,16 @@
 
     <?php
     // Descrizione del funzionamento del codice 
-    echo "<p><strong>Funzionamento del codice:</strong></p>";
-    echo "<ul>";
-    echo "<li>La variabile <code>\$nome</code> è definita come 'Paolo'.</li>";
-    echo "<li>Viene recuperata l'ora attuale con <code>date('H')</code> per determinare il saluto:</li>";
-    echo "<ul>";
-    echo "<li><code>'Buongiorno'</code> se l'ora è tra 8 e 12,</li>";
-    echo "<li><code>'Buonasera'</code> se l'ora è tra 12 e 20,</li>";
-    echo "<li><code>'Buonanotte'</code> se l'ora è tra 20 e 8.</li>";
-    echo "</ul>";
-    echo "<li>Viene analizzato l'User-Agent dell'utente per determinare il browser utilizzato (Chrome, Firefox, Safari, Edge o 'Browser sconosciuto').</li>";
-    echo "<li>Infine, viene mostrato il saluto, il nome e il tipo di browser.</li>";
-    echo "<li>Un pulsante permette di tornare alla pagina principale <code>index.html</code>.</li>";
-    echo "</ul>";
+    // Funzionamento del codice:
+    // La variabile $nome è definita come 'Paolo'.
+    // Viene recuperata l'ora attuale con date('H') per determinare il saluto:
+    // - 'Buongiorno' se l'ora è tra 8 e 12,
+    // - 'Buonasera' se l'ora è tra 12 e 20,
+    // - 'Buonanotte' se l'ora è tra 20 e 8.
+    // Viene analizzato l'User-Agent dell'utente per determinare il browser utilizzato (Chrome, Firefox, Safari, Edge o 'Browser sconosciuto').
+    // Infine, viene mostrato il saluto, il nome e il tipo di browser.
+    // Un pulsante permette di tornare alla pagina principale index.html.
+
     ?>
 
 <?php
@@ -62,7 +59,7 @@ echo "benvenuto nella mia prima pagina PHP.<br>";
 echo "Stai utilizzando il browser: $browser.";
 ?>
 
-<p><button onclick="window.location.href='index.html';">Torna all'indice</button></p>
+<p><button onclick="window.location.href='index.php';">Torna all'indice</button></p>
 <?php include 'footer.php'; ?>
 
 </body>

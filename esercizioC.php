@@ -7,18 +7,16 @@
 
 
     <?php
-    // Descrizione del funzionamento del codice 
-    echo "<p><strong>Funzionamento del codice:</strong></p>";
-    echo "<ul>";
-    echo "<li>Il codice inizializza un ciclo esterno che gestisce le righe di ciascun triangolo.</li>";
-    echo "<li>Per il triangolo (a), il ciclo esterno va da 1 a 10, aumentando il numero di asterischi di riga in riga.</li>";
-    echo "<li>Un ciclo interno stampa gli asterischi per ciascuna riga, con il numero di asterischi che aumenta progressivamente.</li>";
-    echo "<li>Nel triangolo (b), il ciclo esterno va da 10 a 1, diminuendo il numero di asterischi di riga in riga.</li>";
-    echo "<li>Per i triangoli specchiati (c e d), prima viene stampato un numero di spazi per allineare gli asterischi a destra.</li>";
-    echo "<li>Nel triangolo (c), gli asterischi decrescono e gli spazi aumentano da sinistra a destra.</li>";
-    echo "<li>Nel triangolo (d), gli asterischi crescono e gli spazi diminuiscono da sinistra a destra.</li>";
-    echo "<li>Alla fine di ciascun ciclo esterno, il codice esegue <code>echo '<br>'</code> per andare a capo e iniziare la riga successiva.</li>";
-    echo "</ul>";
+    // Descrizione del funzionamento del codice
+    // Il codice inizializza un ciclo esterno che gestisce le righe di ciascun triangolo.
+    // Per il triangolo (a), il ciclo esterno va da 1 a 10, aumentando il numero di asterischi di riga in riga.
+    // Un ciclo interno stampa gli asterischi per ciascuna riga, con il numero di asterischi che aumenta progressivamente.
+    // Nel triangolo (b), il ciclo esterno va da 10 a 1, diminuendo il numero di asterischi di riga in riga.
+    // Per i triangoli specchiati (c e d), prima viene stampato un numero di spazi per allineare gli asterischi a destra.
+    // Nel triangolo (c), gli asterischi decrescono e gli spazi aumentano da sinistra a destra.
+    // Nel triangolo (d), gli asterischi crescono e gli spazi diminuiscono da sinistra a destra.
+    // Alla fine di ciascun ciclo esterno, il codice esegue il comando per andare a capo e iniziare la riga successiva.
+
     ?>
 
 
@@ -71,7 +69,7 @@
     }
     ?>
 
-<p><button onclick="window.location.href='index.html';">Torna all'indice</button></p>
+<p><button onclick="window.location.href='index.php';">Torna all'indice</button></p>
 <?php include 'footer.php'; ?>
 </body>
 </html>
