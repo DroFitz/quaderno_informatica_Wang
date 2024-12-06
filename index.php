@@ -16,6 +16,7 @@ include('check_login.php'); ?>
         <li><a href="esercizioA.php">Esercizio A</a></li>
         <li><a href="esercizioB.php">Esercizio B</a></li>
         <li><a href="esercizioC.php">Esercizio C</a></li>
+        <li><a href="esercizioD.php">Esercizio D</a></li>
         <li><a href="normalizzazione.php">Normalizzazione</a></li>
     </ul>
 
