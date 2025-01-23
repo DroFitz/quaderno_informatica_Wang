@@ -18,6 +18,8 @@ include('check_login.php'); ?>
         <li><a href="esercizioC.php">Esercizio C</a></li>
         <li><a href="esercizioD.php">Esercizio D</a></li>
         <li><a href="normalizzazione.php">Normalizzazione</a></li>
+        <br>
+        <li><a href="agenzia_marittima.php">Agenzia Marittima</a></li>
     </ul>
 
     <!-- Link di logout -->
