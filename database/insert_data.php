@@ -1,6 +1,6 @@
 <html>
 <body>
-    <h1>Inserimento dati Film e Proiezioni</h1>
+    <h1>Inserimento dati Merce</h1>
 
     <?php
     // Connessione al database (modifica con i tuoi dati di accesso)
