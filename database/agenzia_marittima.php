@@ -111,6 +111,6 @@
 
 <p>Clicca sul link qui sotto per tornare alla home page:</p>
 <a href="../index.php">Torna all'indice</a>
-
+<?php include '../footer.php'; ?>
 </body>
 </html>

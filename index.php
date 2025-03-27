@@ -19,7 +19,13 @@ include('check_login.php'); ?>
         <li><a href="esercizioD.php">Esercizio D</a></li>
         <li><a href="normalizzazione.php">Normalizzazione</a></li>
         <br>
+
+        <h2>Database</h2>
         <li><a href="database/agenzia_marittima.php">Agenzia Marittima</a></li>
+        <li><a href="database/vendite.php">Vendite</a></li>
+        <li><a href="database/fatturazione.php">Fatturazione</a></li>
+        <li><a href="database/atletica.php">Atletica</a></li>
+        <li><a href="database/azienda_commerciale.php">Azienda Commerciale</a></li>
     </ul>
 
     <!-- Link di logout -->
